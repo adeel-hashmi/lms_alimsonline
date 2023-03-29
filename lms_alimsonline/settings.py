@@ -76,8 +76,23 @@ WSGI_APPLICATION = 'lms_alimsonline.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'alimsonline_db',
+        # 'USER': 'postgres',
+        # 'PASSWORD': 'admin',
+        # 'HOST': 'localhost',
+        # 'PORT': '5432',
+
+        'DATABASE_URL': 'postgresql://postgres:6oeZGOMoRfNuUSUA9QG8@containers-us-west-173.railway.app:6032/railway',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': '6oeZGOMoRfNuUSUA9QG8',
+        'HOST': 'containers-us-west-173.railway.app',
+        'PORT': '6032',
+
     }
 }
 

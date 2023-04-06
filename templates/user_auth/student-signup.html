@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/header.css' %}">
-    <link rel="stylesheet" href="{% static 'css/student-signup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/std-teach-signup.css' %}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- <link rel="stylesheet" href="create-account.css"> -->
@@ -132,7 +132,7 @@
                     <h1>Create a new student account</h1>
                     <p>Please fill the form below to create an account</p>
                 </div>
-                <form novalidate="" class="ng-untouched ng-pristine ng-invalid">
+                <form action="register" method="post" class="ng-untouched ng-pristine ng-invalid">
                     <div class="form-group"><label for="name">Name <span class="Red">*</span></label><input type="text"
                             id="name" placeholder="Name" formcontrolname="name" maxlength="50"
                             class="form-control ng-untouched ng-pristine ng-invalid"><!----></div>

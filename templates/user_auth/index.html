@@ -1,0 +1,175 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" data-arp-injected="true">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlimsOnline – Online Quran Tutor</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'assets/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'assets/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'assets/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'assets/favicon/site.webmanifest' %}">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500&display=swap');
+
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+
+
+<body class="mat-typography" data-new-gr-c-s-check-loaded="14.1102.0" data-gr-ext-installed="">
+    <div class="Header">
+        <div class="container">
+            <div class="InnerHeader">
+                <div routerlink="/" class="Logo" tabindex="0">
+                    <img src="{% static 'assets/logo/logo.png' %}" alt="logo">
+                </div>
+                <div class="Navigation">
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="index.html"> Home </a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="Item" tabindex="0">
+                            <a class="nav-element" href="find-teachers.html"> Find teachers </a>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="Item" tabindex="0">
+                            <a class="nav-element" href="find-jobs.html"> Find Jobs </a>
+                        </div>
+                    </div>
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="resources.html"> Resources </a>
+                    </div>
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="contact.html"> Contact us </a>
+                    </div>
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="faqs.html"> Faqs </a>
+                    </div>
+
+                    <div class="Item">
+                        <a class="nav-element" href="login.html"> Login </a>
+                    </div>
+                    <div class="Item">
+                        <a class="nav-element" href="signup.html"> Signup</a>
+                    </div>
+
+                </div>
+                <div data-toggle="collapse" data-target="#collaspeNavigation" aria-expanded="false"
+                    aria-controls="collaspeNavigation" class="HumburgerIcon">
+                    <img src="{% static 'assets/icons/header-icon.JPG' %}" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="HamburgerListMenu">
+        <div id="collaspeNavigation" class="collapse">
+            <div class="Card Card-body">
+                <div class="Nav">
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="index.html"> Home </a>
+                    </div>
+                    <div class="d-flex">
+                        <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                            <a class="nav-element" href="find-teachers.html"> Find teachers </a>
+                        </div>
+                    </div>
+                    </a>
+
+                    <div class="d-flex">
+                        <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                            <a class="nav-element" href="find-jobs.html"> Find Jobs </a>
+                        </div>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="resources.html"> Resources </a>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="contact.html"> Contact us </a>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="faqs.html"> Faqs </a>
+                    </div>
+
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item">
+                        <a class="nav-element" href="login.html"> Login </a>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item">
+                        <a class="nav-element" href="signup.html"> Signup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="CreateAccount">
+            <div class="container">
+                <div class="MainHeading">
+                    <h1 >Create a new account</h1><!---->
+                    <p >Choose an option below to create an
+                        account</p><!----><!----><!---->
+                </div>
+                <div class="AccountBox">
+                    <div class="Account Student" tabindex="0">
+                        <div class="CardDeatils"><img src="{% static 'assets/icons/home-student.png' %}" alt="student">
+                            <h3>
+                                <a class="RoleReg" href="{% url 'user_auth:studentSignup' %}">
+                                    I am a student
+                                </a>
+                            </h3>
+                            <p>Hire teachers for your learning</p>
+                        </div>
+                    </div>
+                    <div class="Account Teacher" tabindex="0">
+                        <div class="CardDeatils"><img src="{% static 'assets/icons/home-teacher.png' %}" alt="teacher">
+                            <h3>
+                                <a class="RoleReg" href="{% url 'user_auth:teacherSignup' %}">
+                                    I am a teacher
+                                </a>
+                            </h3>
+                            <p>Find teaching jobs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ChangeOption">
+                    <p> You can later change the account type from account settings
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

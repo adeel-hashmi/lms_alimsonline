@@ -1,0 +1,166 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" data-arp-injected="true">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlimsOnline – Online Quran Tutor</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'assets/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'assets/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'assets/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'assets/favicon/site.webmanifest' %}">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500&display=swap');
+
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/student-signup.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <!-- <link rel="stylesheet" href="create-account.css"> -->
+</head>
+
+<body class="mat-typography" data-new-gr-c-s-check-loaded="14.1102.0" data-gr-ext-installed="">
+    <div class="Header">
+        <div class="container">
+            <div class="InnerHeader">
+                <div routerlink="/" class="Logo" tabindex="0">
+                    <img src="{% static 'assets/logo/logo.png' %}" alt="logo">
+                </div>
+                <div class="Navigation">
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="index.html"> Home </a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="Item" tabindex="0">
+                            <a class="nav-element" href="find-teachers.html"> Find teachers </a>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="Item" tabindex="0">
+                            <a class="nav-element" href="find-jobs.html"> Find Jobs </a>
+                        </div>
+                    </div>
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="resources.html"> Resources </a>
+                    </div>
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="contact.html"> Contact us </a>
+                    </div>
+                    <div class="Item" tabindex="0">
+                        <a class="nav-element" href="faqs.html"> Faqs </a>
+                    </div>
+
+                    <div class="Item">
+                        <a class="nav-element" href="login.html"> Login </a>
+                    </div>
+                    <div class="Item">
+                        <a class="nav-element" href="signup.html"> Signup</a>
+                    </div>
+                </div>
+                <div data-toggle="collapse" data-target="#collaspeNavigation" aria-expanded="false"
+                    aria-controls="collaspeNavigation" class="HumburgerIcon">
+                    <img src="{% static 'assets/icons/header-icon.JPG' %}" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="HamburgerListMenu">
+        <div id="collaspeNavigation" class="collapse">
+            <div class="Card Card-body">
+                <div class="Nav">
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="index.html"> Home </a>
+                    </div>
+                    <div class="d-flex">
+                        <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                            <a class="nav-element" href="find-teachers.html"> Find teachers </a>
+                        </div>
+                    </div>
+                    </a>
+
+                    <div class="d-flex">
+                        <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                            <a class="nav-element" href="find-jobs.html"> Find Jobs </a>
+                        </div>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="resources.html"> Resources </a>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="contact.html"> Contact us </a>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item" tabindex="0">
+                        <a class="nav-element" href="faqs.html"> Faqs </a>
+                    </div>
+
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item">
+                        <a class="nav-element" href="login.html"> Login </a>
+                    </div>
+                    <div data-toggle="collapse" data-target="#collaspeNavigation" class="Item">
+                        <a class="nav-element" href="signup.html"> Signup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="CreateAccount">
+            <div class="container">
+                <div class="MainHeading">
+                    <h1>Create a new teacher account</h1>
+                    <p>Please fill the form below to create an account</p>
+                </div>
+                <form novalidate="" class="ng-untouched ng-pristine ng-invalid">
+                    <div class="form-group"><label for="name">Name <span class="Red">*</span></label><input type="text"
+                            id="name" placeholder="Name" formcontrolname="name" maxlength="50"
+                            class="form-control ng-untouched ng-pristine ng-invalid"><!----></div>
+                    <div class="form-group"><label for="email">Email <span class="Red">*</span></label><input
+                            type="email" id="email" aria-describedby="emailHelp" placeholder="Enter email"
+                            formcontrolname="email" maxlength="50"
+                            class="form-control ng-untouched ng-pristine ng-invalid"><!----></div>
+                    <div class="form-group"><label for="password">Password <span class="Red">*</span></label><input
+                            type="password" id="password" placeholder="Password" formcontrolname="password"
+                            maxlength="50" class="form-control ng-untouched ng-pristine ng-invalid"><!---->
+                        <div class="Eye"><i class="fas fa-eye"></i></div>
+                    </div><button type="submit" class="btn btn-primary"><span class="ng-star-inserted">Create
+                            account</span><!----><!----></button>
+                </form>
+                <div class="DontAccount" tabindex="0">
+                    <p>Already have an account? Sign in here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.ContactUs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ContactUs .container .MainHeaing {
+  margin-bottom: 30px;
+}
+
+.ContactUs .container .MainHeaing h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.ContactUs .container form .form-group {
+  max-width: 350px;
+  margin: 30px 0;
+}
+
+.ContactUs .container form .form-group label {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  display: flex;
+}
+
+.ContactUs .container form .form-group .form-control {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #e5e9eb;
+}
+
+.ContactUs .container form .form-group .field {
+  height: 43px;
+}
+
+.ContactUs .container form .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: unset;
+  border: 1px solid #ced4da;
+}
+
+.ContactUs .container form .form-group .Requried {
+  color: #f45656;
+  font-size: 20px;
+}
+
+.ContactUs .container form .form-group textarea {
+  width: 845px;
+}
+
+.ContactUs .container form button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  width: 158px;
+  height: 49px;
+  background: #2a76e8;
+  border-radius: 6px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 770px) {
+  .ContactUs .container form .form-group textarea {
+    width: 100%;
+    max-width: 845px;
+  }
+}
+
+.ContactUs .mat-button-wrapper,
+.ContactUs .mat-button-wrapper:focus {
+  outline: none;
+}
+
+.ContactUs .mat-progress-spinner.mat-progress-spinner-indeterminate-animation {
+  width: 30px !important;
+  height: 30px !important;
+  outline: none;
+}
+
+.ContactUs
+  .mat-progress-spinner.mat-progress-spinner-indeterminate-animation
+  svg {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.ContactUs .mat-progress-spinner circle,
+.ContactUs .mat-spinner circle {
+  stroke: #fff;
+}

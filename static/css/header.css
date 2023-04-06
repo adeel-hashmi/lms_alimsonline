@@ -1,0 +1,454 @@
+.Header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #2a76e8;
+    border-bottom: 1px solid #e5e9eb
+}
+
+.Header .InnerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.Header .InnerHeader .Logo img {
+    height: 42px;
+    width: 110px;
+    cursor: pointer;
+    object-fit: contain
+}
+
+.Header .InnerHeader .Navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Header .InnerHeader .Navigation .Item {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    cursor: pointer;
+    margin: 0 20px
+}
+
+.Header .InnerHeader .Navigation .Item > a{
+    text-decoration:none;
+    color:#000;
+}
+
+.Header .InnerHeader .Navigation .Icons {
+    display: flex;
+    align-items: center;
+    padding: 7px 10px
+}
+
+.Header .InnerHeader .Navigation .Icons .Icon {
+    position: relative
+}
+
+.Header .InnerHeader .Navigation .Icons .Icon img {
+    margin: 0 15px;
+    cursor: pointer
+}
+
+.Header .InnerHeader .Navigation .Icons .Icon .Count {
+    right: 11px;
+    position: absolute;
+    background-color: red;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.Header .InnerHeader .Navigation .Profile {
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Header .InnerHeader .Navigation .Profile .PostJob {
+    background: #2A76E8;
+    border-radius: 4px;
+    padding: 5px 15px;
+    cursor: pointer
+}
+
+.Header .InnerHeader .Navigation .Profile .PostJob span {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    line-height: 18px
+}
+
+.Header .InnerHeader .Navigation .Profile img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%
+}
+
+.Header .InnerHeader .Navigation .Separator {
+    width: 2px;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 10px
+}
+
+.Header .InnerHeader .HumburgerIcon {
+    display: none
+}
+
+.Header .InnerHeader .HumburgerIcon i {
+    font-size: 25px
+}
+
+.NotificationList {
+    width: 270px;
+    max-height: 300px;
+    overflow-y: auto
+}
+
+.NotificationList .Item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px 15px;
+    background-color: #f8f9fa;
+    margin: 2px 0;
+    cursor: pointer
+}
+
+.NotificationList .Item .head {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.NotificationList .Item .message {
+    font-size: 12px
+}
+
+.NotificationList .Item:hover {
+    background-color: #f9f9f9
+}
+
+.ProfileMenu {
+    width: 215px;
+    padding: 5px 20px;
+    margin: -8px 0
+}
+
+.ProfileMenu .Items .Item {
+    margin: 10px 5px;
+    cursor: pointer;
+    padding: 8px 0
+}
+
+.HamburgerListMenu {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: #2a76e8
+}
+
+.HamburgerListMenu .collapse {
+    background-color: #2a76e8;
+    min-height: 120px
+}
+
+.HamburgerListMenu .collapse .Card {
+    background-color: #2a76e8;
+    border: 0px;
+    padding: 10px;
+    color: #fff
+}
+
+.HamburgerListMenu .collapse .Card .Nav .Item {
+    cursor: pointer;
+    padding: 7px 10px;
+    color: #fff
+}
+
+.HamburgerListMenu .collapse .Card .Nav .Item a {
+    color: #fff;
+    text-decoration: none
+}
+
+.HamburgerListMenu .collapse .Card .Nav .Icons {
+    padding: 0 10px
+}
+
+.HamburgerListMenu .collapse .Card .Nav .Icons .Icon {
+    margin: 10px 0
+}
+
+.HamburgerListMenu .collapse .Card .Nav .Profile {
+    padding: 7px 10px
+}
+
+.HamburgerListMenu .collapse .Card .Nav .Profile img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%
+}
+
+.HamburgerListMenu .collapse .Card .Nav .User {
+    padding: 7px 10px
+}
+
+.HamburgerListMenu .collapse .Card .Nav .User i {
+    padding: 0 10px
+}
+
+.HamburgerListMenu .collapsing .Card {
+    background-color: #2a76e8;
+    border: 0px;
+    padding: 10px;
+    color: #fff
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .Item {
+    cursor: pointer;
+    padding: 7px 10px;
+    color: #fff
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .Item a {
+    color: #fff;
+    text-decoration: none
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .Icons {
+    padding: 0 10px
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .Icons .Icon {
+    margin: 10px 0
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .Profile {
+    padding: 10px 0 15px
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .Profile img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .User {
+    padding: 7px 10px
+}
+
+.HamburgerListMenu .collapsing .Card .Nav .User i {
+    padding: 0 10px
+}
+
+@media (min-width: 1370px) {
+    .container {
+        max-width: 1366px
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .Header .InnerHeader .Navigation {
+        display: none
+    }
+
+    .Header .InnerHeader .HumburgerIcon {
+        display: unset
+    }
+
+    .Header .InnerHeader .HumburgerIcon i,
+    .Header .InnerHeader .HumburgerIcon img {
+        cursor: pointer
+    }
+
+    .HamburgerListMenu .collapse .Card .Nav .Icons {
+        display: flex;
+        align-items: center
+    }
+
+    .HamburgerListMenu .collapse .Card .Nav .Icons .Icon {
+        position: relative;
+        margin: 10px 10px 10px 0;
+        background-color: #fff;
+        border-radius: 50px;
+        padding: 7px
+    }
+
+    .HamburgerListMenu .collapse .Card .Nav .Icons .Icon .Count {
+        position: absolute;
+        right: -4px;
+        background-color: #cd0000;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 12px;
+        width: 23px;
+        height: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        line-height: 1px;
+        top: -4px
+    }
+}
+
+
+mat-menu {
+    display: none
+}
+
+.mat-menu-panel {
+    min-width: 112px;
+    max-width: 280px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(100vh - 48px);
+    border-radius: 4px;
+    outline: 0;
+    min-height: 64px
+}
+
+.mat-menu-panel.ng-animating {
+    pointer-events: none
+}
+
+.cdk-high-contrast-active .mat-menu-panel {
+    outline: solid 1px
+}
+
+.mat-menu-content:not(:empty) {
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.mat-menu-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 16px;
+    text-align: left;
+    text-decoration: none;
+    max-width: 100%;
+    position: relative
+}
+
+.mat-menu-item::-moz-focus-inner {
+    border: 0
+}
+
+.mat-menu-item[disabled] {
+    cursor: default
+}
+
+[dir=rtl] .mat-menu-item {
+    text-align: right
+}
+
+.mat-menu-item .mat-icon {
+    margin-right: 16px;
+    vertical-align: middle
+}
+
+.mat-menu-item .mat-icon svg {
+    vertical-align: top
+}
+
+[dir=rtl] .mat-menu-item .mat-icon {
+    margin-left: 16px;
+    margin-right: 0
+}
+
+.mat-menu-item[disabled] {
+    pointer-events: none
+}
+
+.cdk-high-contrast-active .mat-menu-item {
+    margin-top: 1px
+}
+
+.cdk-high-contrast-active .mat-menu-item.cdk-program-focused,
+.cdk-high-contrast-active .mat-menu-item.cdk-keyboard-focused,
+.cdk-high-contrast-active .mat-menu-item-highlighted {
+    outline: dotted 1px
+}
+
+.mat-menu-item-submenu-trigger {
+    padding-right: 32px
+}
+
+[dir=rtl] .mat-menu-item-submenu-trigger {
+    padding-right: 16px;
+    padding-left: 32px
+}
+
+.mat-menu-submenu-icon {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 10px;
+    fill: currentColor
+}
+
+[dir=rtl] .mat-menu-submenu-icon {
+    right: auto;
+    left: 16px;
+    transform: translateY(-50%) scaleX(-1)
+}
+
+.cdk-high-contrast-active .mat-menu-submenu-icon {
+    fill: CanvasText
+}
+
+button.mat-menu-item {
+    width: 100%
+}
+
+.mat-menu-item .mat-menu-ripple {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    pointer-events: none
+}

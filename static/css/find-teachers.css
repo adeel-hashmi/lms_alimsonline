@@ -1,0 +1,514 @@
+.SearchTeachers
+  .mat-progress-spinner.mat-progress-spinner-indeterminate-animation {
+  width: 50px !important;
+  height: 50px !important;
+  outline: none;
+}
+
+.SearchTeachers
+  .mat-progress-spinner.mat-progress-spinner-indeterminate-animation
+  svg {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.SearchTeachers .mat-progress-spinner circle,
+.SearchTeachers .mat-spinner circle {
+  stroke: #2a76e8;
+}
+
+.SearchTeachers {
+  padding: 80px 0 40px;
+}
+
+.SearchTeachers .SearchBar {
+  position: relative;
+  border: solid #e5e9eb 1px;
+  width: 100%;
+  max-width: 730px;
+  height: 49px;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 13px 35px #9aafba40;
+}
+
+.SearchTeachers .SearchBar .Search {
+  margin-top: -10px;
+}
+
+.SearchTeachers .SearchBar .Search input {
+  width: calc(100% - 80px);
+  height: 47px;
+  border: none;
+  outline: none;
+}
+
+.SearchTeachers .SearchBar .Filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  height: 47px;
+}
+
+.SearchTeachers .SearchBar .Filter img {
+  cursor: pointer;
+}
+
+.SearchTeachers .FilterMenu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: solid #e5e9eb 1px;
+  width: 730px;
+  border-radius: 6px;
+  box-shadow: 0 13px 35px #9aafba40;
+  background-color: #fff;
+  margin: 20px 0 0;
+  padding: 25px;
+  z-index: 1;
+}
+
+.SearchTeachers .FilterMenu .heading {
+  margin-bottom: 20px;
+}
+
+.SearchTeachers .FilterMenu .FormFields .form-group {
+  margin: 0;
+  max-width: 350px;
+}
+
+.SearchTeachers .FilterMenu .FormFields .form-group .form-control {
+  height: 43px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #e5e9eb;
+}
+
+.SearchTeachers .FilterMenu .FormFields .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: unset;
+  border: 1px solid #ced4da;
+}
+
+.SearchTeachers .FilterMenu .FormFields .form-group textarea {
+  height: unset !important;
+}
+
+.SearchTeachers .FilterMenu .FormFields .form-check {
+  margin: 5px 0;
+}
+
+.SearchTeachers .FilterMenu .FormFields .RadioButtonSection {
+  display: flex;
+}
+
+.SearchTeachers .FilterMenu .FormFields .RadioButton {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.SearchTeachers .FilterMenu .FormFields .RadioButton label {
+  margin: 0 0 5x;
+}
+
+.SearchTeachers .FilterMenu .Buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.SearchTeachers .FilterMenu .Buttons .Reset {
+  margin-right: 32px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2a76e8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SearchTeachers .FilterMenu .Buttons button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #2a76e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.SearchTeachers .FilterMenu .Buttons button:focus {
+  box-shadow: none;
+  border-color: unset;
+}
+
+.SearchTeachers .AppliedFilter {
+  display: flex;
+  margin: 40px 0 -10px;
+  flex-wrap: wrap;
+}
+
+.SearchTeachers .AppliedFilter .FilterHeading {
+  display: flex;
+  align-items: center;
+}
+
+.SearchTeachers .AppliedFilter .FilterHeading p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.4px;
+  font-family: "Raleway";
+  margin: 0 !important;
+}
+
+.SearchTeachers .AppliedFilter .LangFilter {
+  border-radius: 168px;
+  background-color: #f6f9fe;
+  border: #bdd4f7 solid 1px;
+  padding: 8px 25px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px 0 10px 30px;
+}
+
+.SearchTeachers .AppliedFilter .LangFilter div {
+  margin-bottom: 3px;
+}
+
+.SearchTeachers .AppliedFilter .ClearFilter {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.SearchTeachers .AppliedFilter .ClearFilter p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.4px;
+  text-decoration: underline;
+  color: #2a76e8;
+  cursor: pointer;
+  margin: 0;
+}
+
+.SearchTeachers .SortBy {
+  margin-top: 40px;
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.SearchTeachers .SortBy .SortByHeading p {
+  font-size: 12;
+  font-weight: 400;
+  font-family: " Raleway";
+}
+
+.SearchTeachers .SortBy .Menu i {
+  width: 120px;
+}
+
+.SearchTeachers .TeacherJobCards {
+  padding: 40px 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails {
+  background-color: #f8f8f8;
+  border: solid #e5e9eb 1px;
+  width: 250px;
+  min-height: 315px;
+  padding: 30px 0 10px;
+  text-align: center;
+  margin: 10px 40px 20px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .Menu {
+  position: absolute;
+  right: 13px;
+  top: 10px;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .TeacherImg {
+  padding-bottom: 20px;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .TeacherImg img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .TeacherDescription {
+  text-align: center;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .TeacherDescription h2 {
+  font-size: 22px;
+  font-family: "Raleway";
+  font-weight: 600;
+  line-height: 25.83px;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .TeacherDescription p {
+  font-size: 12px;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.2;
+  width: 150px;
+  margin: 0 auto 5px;
+  height: 30px;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .RatingAndPrice {
+  border-bottom: solid #e5e9eb 1px;
+  border-top: solid #e5e9eb 1px;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway";
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .RatingAndPrice .Rating {
+  display: flex;
+  align-items: center;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .RatingAndPrice .Rating p {
+  padding: 15px 0 0 4px;
+  font-size: 12px;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .RatingAndPrice img {
+  opacity: 0.4;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .RatingAndPrice .Price {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .RatingAndPrice .Price p {
+  padding: 15px 0 0 4px;
+  font-size: 12px;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .HireTeacher {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  position: relative;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .HireTeacher .HireBtn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .HireTeacher .HireBtn button {
+  width: 57px;
+  height: 29px;
+  color: #fff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #2a76e8;
+  padding: 0;
+}
+
+.SearchTeachers
+  .TeacherJobCards
+  .JobCardsDetails
+  .HireTeacher
+  .HireBtn
+  button:focus {
+  box-shadow: none;
+  border-color: unset;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .HireTeacher .HeartImg {
+  position: absolute;
+  right: 16px;
+}
+
+.SearchTeachers .TeacherJobCards .JobCardsDetails .HireTeacher .HeartImg img {
+  cursor: pointer;
+}
+
+.SearchTeachers .ShowMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px;
+}
+
+.SearchTeachers .ShowMore .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .SearchTeachers .TeacherJobCards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .SearchTeachers .TeacherJobCards .JobCardsDetails {
+    width: 220px;
+    margin: 10px;
+  }
+
+  .SearchTeachers .TeacherJobCards .JobCardsDetails .TeacherDescription h2 {
+    font-size: 16px;
+  }
+
+  .SearchTeachers .TeacherJobCards .JobCardsDetails .RatingAndPrice .Price p {
+    font-size: 11px;
+  }
+
+  .SearchTeachers .FilterMenu {
+    position: relative;
+    max-width: 730px;
+    width: 100%;
+  }
+
+  .SearchTeachers .AppliedFilter {
+    flex-wrap: wrap;
+  }
+
+  .SearchTeachers .AppliedFilter .LangFilter {
+    margin: 5px 0 5px 30px;
+    flex-wrap: wrap;
+  }
+
+  .SearchTeachers .AppliedFilter .LangFilter div {
+    margin-bottom: 3px;
+  }
+}
+
+.SearchTeachers {
+  font-family: "Raleway";
+}
+
+.SearchTeachers .swal2-styled.swal2-confirm {
+  background-color: #2a76e8;
+}
+
+.SearchTeachers .ng-dropdown-panel.ng-select-bottom {
+  top: 100% !important;
+}
+
+.SearchTeachers
+  .ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-placeholder {
+  top: 12px;
+}
+
+.SearchTeachers .ng-select .ng-select-container:after {
+  border-bottom: 0;
+}
+
+.SearchTeachers
+  .ng-select
+  .ng-select-container
+  .ng-value-container
+  .ng-placeholder {
+  color: #fff;
+}
+
+.SearchTeachers
+  .ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-placeholder {
+  display: none;
+}
+
+.SearchTeachers .ng-select .ng-select-container {
+  min-height: 43px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #e5e9eb;
+  background-color: unset;
+}
+
+.SearchTeachers
+  .ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-value {
+  color: #000;
+  background-color: #f6f9fe;
+  border: 1px solid #bdd4f7;
+  padding-left: 0;
+  margin: 0 0.4375em 0.4375em 0;
+}
+
+.SearchTeachers .ng-select .ng-clear-wrapper {
+  margin-top: -8px;
+}
+
+.SearchTeachers
+  .ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-value
+  .ng-value-icon {
+  color: #0000008a;
+}
+
+.SearchTeachers
+  .ng-select.ng-select-multiple
+  .ng-select-container.ng-has-value
+  .ng-value-container {
+  margin-top: -6px;
+}
+
+@media (min-width: 1370px) {
+  .container {
+    max-width: 1366px;
+  }
+}

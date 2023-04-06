@@ -1,0 +1,429 @@
+.FindJobs {
+  padding: 80px 0 40px;
+}
+
+.FindJobs .SearchBar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: solid #e5e9eb 1px;
+  width: 100%;
+  max-width: 730px;
+  height: 49px;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 13px 35px #9aafba40;
+}
+
+.FindJobs .SearchBar .Search {
+  width: 100%;
+}
+
+.FindJobs .SearchBar .Search input {
+  width: calc(100% - 80px);
+  height: 47px;
+  border: none;
+  outline: none;
+}
+
+.FindJobs .SearchBar .Filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  height: 47px;
+}
+
+.FindJobs .SearchBar .Filter img {
+  cursor: pointer;
+}
+
+.FindJobs .FilterMenu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: solid #e5e9eb 1px;
+  width: 730px;
+  border-radius: 6px;
+  box-shadow: 0 13px 35px #9aafba40;
+  background-color: #fff;
+  margin: 20px 0 0;
+  padding: 25px;
+  z-index: 1;
+}
+
+.FindJobs .FilterMenu .heading {
+  margin-bottom: 20px;
+}
+
+.FindJobs .FilterMenu .FormFields .form-group {
+  margin: 0 0 35px;
+  max-width: 350px;
+}
+
+.FindJobs .FilterMenu .FormFields .form-group .form-control {
+  height: 43px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #e5e9eb;
+}
+
+.FindJobs .FilterMenu .FormFields .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: unset;
+  border: 1px solid #ced4da;
+}
+
+.FindJobs .FilterMenu .FormFields .form-group textarea {
+  height: unset !important;
+}
+
+.FindJobs .FilterMenu .FormFields .form-check {
+  margin: 5px 0;
+}
+
+.FindJobs .FilterMenu .FormFields .RadioButtonSection {
+  display: flex;
+}
+
+.FindJobs .FilterMenu .FormFields .RadioButton {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.FindJobs .FilterMenu .FormFields .RadioButton label {
+  margin: 0 0 5x;
+}
+
+.FindJobs .FilterMenu .Buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.FindJobs .FilterMenu .Buttons .Reset {
+  margin-right: 32px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2a76e8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.FindJobs .FilterMenu .Buttons button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #2a76e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.FindJobs .FilterMenu .Buttons button:focus {
+  box-shadow: none;
+  border-color: unset;
+}
+
+.FindJobs .AppliedFilter {
+  display: flex;
+  margin: 40px 0 -10px;
+}
+
+.FindJobs .AppliedFilter .FilterHeading {
+  display: flex;
+  align-items: center;
+}
+
+.FindJobs .AppliedFilter .FilterHeading p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.4px;
+  font-family: "Raleway";
+  margin: 0 !important;
+}
+
+.FindJobs .AppliedFilter .LangFilter {
+  border-radius: 168px;
+  background-color: #f6f9fe;
+  border: #bdd4f7 solid 1px;
+  padding: 8px 25px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px 0 10px 30px;
+}
+
+.FindJobs .AppliedFilter .ClearFilter {
+  display: flex;
+  align-items: center;
+  height: 58px;
+  margin-left: 30px;
+}
+
+.FindJobs .AppliedFilter .ClearFilter p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.4px;
+  text-decoration: underline;
+  color: #2a76e8;
+  cursor: pointer;
+  margin: 0;
+}
+
+.FindJobs .SortBy {
+  margin-top: 40px;
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.FindJobs .SortBy .SortByHeading p {
+  font-size: 12;
+  font-weight: 400;
+  font-family: " Raleway";
+}
+
+.FindJobs .SortBy .Menu i {
+  width: 120px;
+}
+
+.FindJobs .JobCards {
+  margin-top: 40px;
+}
+
+.FindJobs .JobCards .Card {
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid #e5e9eb;
+  box-sizing: border-box;
+  box-shadow: 0 2px 13px #9aafba33;
+  border-radius: 7px;
+  padding: 34px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  cursor: pointer;
+  position: relative;
+}
+
+.FindJobs .JobCards .Card .JobDetails {
+  width: 100%;
+  max-width: 500px;
+}
+
+.FindJobs .JobCards .Card .JobDetails .heading {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  height: 16px;
+}
+
+.FindJobs .JobCards .Card .JobDetails .details {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 8px;
+}
+
+.FindJobs .JobCards .Card .JobBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 325px;
+  width: 100%;
+}
+
+.FindJobs .JobCards .Card .JobBox .Prices {
+  width: 100%;
+  max-width: 120px;
+  height: 75px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FindJobs .JobCards .Card .JobBox .Prices .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FindJobs .JobCards .Card .JobBox .Prices .item img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  opacity: 0.4;
+}
+
+.FindJobs .JobCards .Card .JobBox .Prices .item .amount {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+}
+
+.FindJobs .JobCards .Card .JobBox .Prices .separator {
+  border: 1px solid #e5e9eb;
+}
+
+.FindJobs .JobCards .Card .JobBox .Prices .Ended {
+  position: absolute;
+  bottom: 7px;
+  right: 35px;
+  font-size: 11px;
+  color: #ff7e75;
+  font-weight: bold;
+}
+
+.FindJobs .ShowMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px;
+  max-width: 900px;
+}
+
+.FindJobs .ShowMore .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1370px) {
+  .container {
+    max-width: 1366px;
+  }
+}
+
+@media (max-width: 767px) {
+  .FindJobs {
+    padding: 20px 0 40px;
+  }
+
+  .FindJobs .JobCards .Card {
+    flex-direction: column;
+  }
+
+  .FindJobs .JobCards .Card .JobBox {
+    margin: 15px 0 0;
+  }
+
+  .FindJobs .FilterMenu {
+    position: relative;
+    max-width: 730px;
+    width: 100%;
+  }
+
+  .FindJobs .AppliedFilter {
+    flex-wrap: wrap;
+  }
+
+  .FindJobs .AppliedFilter .LangFilter {
+    margin: 10px 0 10px 30px;
+    flex-wrap: wrap;
+  }
+
+  .FindJobs .AppliedFilter .LangFilter div {
+    margin-bottom: 3px;
+  }
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #2a76e8;
+}
+
+.ng-select {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ng-dropdown-panel.ng-select-bottom {
+  top: 100% !important;
+}
+
+.ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-placeholder {
+  top: 12px;
+}
+
+.ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-placeholder {
+  display: none;
+}
+
+.ng-select .ng-select-container:after {
+  border-bottom: 0;
+}
+
+.ng-select .ng-select-container {
+  min-height: 43px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #e5e9eb;
+  background-color: unset;
+}
+
+.ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-value {
+  color: #000;
+  background-color: #f6f9fe;
+  border: 1px solid #bdd4f7;
+  padding-left: 0;
+  margin: 0 0.4375em 0.4375em 0;
+}
+
+.ng-select .ng-clear-wrapper {
+  margin-top: -8px;
+}
+
+.ng-select.ng-select-multiple
+  .ng-select-container
+  .ng-value-container
+  .ng-value
+  .ng-value-icon {
+  color: #0000008a;
+}
+
+.ng-select.ng-select-multiple
+  .ng-select-container.ng-has-value
+  .ng-value-container {
+  margin-top: -6px;
+}

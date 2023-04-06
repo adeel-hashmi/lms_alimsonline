@@ -1,0 +1,548 @@
+.CreateAccount {
+  margin-top: 100px;
+}
+
+.CreateAccount .container .MainHeading {
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.CreateAccount .container .MainHeading h1 {
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42.2px;
+}
+
+.CreateAccount .container .MainHeading p {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.4px;
+}
+
+.CreateAccount .container .AccountBox {
+  display: flex;
+  justify-content: center;
+}
+
+.CreateAccount .container .AccountBox .Account {
+  width: 200px;
+  height: 250px;
+  border-radius: 12px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 20px;
+}
+
+.CreateAccount .container .AccountBox .Account .CardDeatils {
+  text-align: center;
+  align-items: center;
+}
+
+.CreateAccount .container .AccountBox .Account .CardDeatils img {
+  width: 65px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.CreateAccount .container .AccountBox .Account .CardDeatils i {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.CreateAccount .container .AccountBox .Account .CardDeatils h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 20px;
+}
+
+.CreateAccount .container .AccountBox .Account .CardDeatils p {
+  font-family: "Raleway";
+  font-size: 12px;
+  line-height: 0px;
+}
+
+.CreateAccount .container .AccountBox .Student {
+  border: 1px solid #bdd4f7;
+  background-color: #f6f9fe;
+  cursor: pointer;
+}
+
+.CreateAccount .container .AccountBox .Disable {
+  cursor: unset;
+  opacity: 0.6;
+}
+
+.CreateAccount .container .AccountBox .Teacher {
+  border: 1px solid #e47f7f;
+  cursor: pointer;
+  background-color: #fcf1f1;
+}
+
+.CreateAccount .container .ChangeOption p {
+  padding-top: 70px;
+  text-align: center;
+  line-height: 17.4px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.CreateAccount .container .AlreadyAccount P {
+  padding-top: 150px;
+  color: #2a76e8;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 785px) {
+  .CreateAccount {
+    margin-top: 100px;
+  }
+
+  .CreateAccount .container .AccountBox .Account .CardDeatils p {
+    line-height: unset;
+  }
+
+  .CreateAccount .container .ChangeOption p {
+    padding-top: 70px;
+    line-height: 17.4px;
+    font-size: 14px;
+  }
+
+  .CreateAccount .container .AlreadyAccount P {
+    padding-top: 150px;
+    color: #2a76e8;
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1370px) {
+  .container {
+    max-width: 1366px;
+  }
+}
+
+.LoginAccount[_ngcontent-dyj-c186] {
+  margin-top: 50px;
+}
+
+.LoginAccount[_ngcontent-dyj-c186] .MainHeading[_ngcontent-dyj-c186] {
+  margin-bottom: 40px;
+}
+/* 
+.LoginAccount[_ngcontent-dyj-c186]
+  .MainHeading[_ngcontent-dyj-c186]
+  h1[_ngcontent-dyj-c186] {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.26px;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  .MainHeading[_ngcontent-dyj-c186]
+  p[_ngcontent-dyj-c186] {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14.4px;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  .form-group[_ngcontent-dyj-c186] {
+  max-width: 400px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  .form-group[_ngcontent-dyj-c186]
+  label[_ngcontent-dyj-c186] {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  .form-group[_ngcontent-dyj-c186]
+  .form-control[_ngcontent-dyj-c186] {
+  height: 43px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #e5e9eb;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  .form-group[_ngcontent-dyj-c186]
+  .form-control[_ngcontent-dyj-c186]:focus {
+  box-shadow: none;
+  border-color: unset;
+  border: 1px solid #ced4da;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  .form-group[_ngcontent-dyj-c186]
+  .Red[_ngcontent-dyj-c186] {
+  color: red;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  .form-group[_ngcontent-dyj-c186]
+  .Eye[_ngcontent-dyj-c186] {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  .form-group[_ngcontent-dyj-c186]
+  .Eye[_ngcontent-dyj-c186]
+  i[_ngcontent-dyj-c186] {
+  cursor: pointer;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  button[_ngcontent-dyj-c186] {
+  width: 161px;
+  height: 49px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #2a76e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  form[_ngcontent-dyj-c186]
+  button[_ngcontent-dyj-c186]:focus {
+  box-shadow: none;
+  border-color: unset;
+}
+
+.LoginAccount[_ngcontent-dyj-c186] .ResetPassword[_ngcontent-dyj-c186] {
+  margin-top: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  .ResetPassword[_ngcontent-dyj-c186]
+  p[_ngcontent-dyj-c186] {
+  color: #2a76e8;
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: "Raleway";
+  cursor: pointer;
+}
+
+.LoginAccount[_ngcontent-dyj-c186] .DontAccount[_ngcontent-dyj-c186] {
+  margin-top: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.LoginAccount[_ngcontent-dyj-c186]
+  .DontAccount[_ngcontent-dyj-c186]
+  p[_ngcontent-dyj-c186] {
+  color: #2a76e8;
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: "Raleway";
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .TeacherAccount[_ngcontent-dyj-c186] {
+    margin-top: 50px;
+  }
+
+  .TeacherAccount[_ngcontent-dyj-c186] .MainHeading[_ngcontent-dyj-c186] {
+    margin-bottom: 40px;
+  }
+
+  .TeacherAccount[_ngcontent-dyj-c186]
+    form[_ngcontent-dyj-c186]
+    .form-group[_ngcontent-dyj-c186] {
+    width: 300px;
+    margin: 30px 0;
+  }
+
+  .TeacherAccount[_ngcontent-dyj-c186]
+    form[_ngcontent-dyj-c186]
+    .form-group[_ngcontent-dyj-c186]
+    .Red[_ngcontent-dyj-c186] {
+    color: red;
+  }
+
+  .TeacherAccount[_ngcontent-dyj-c186] .AlreadyAccount[_ngcontent-dyj-c186] {
+    margin-top: 50px;
+  }
+
+  .TeacherAccount[_ngcontent-dyj-c186]
+    .AlreadyAccount[_ngcontent-dyj-c186]
+    p[_ngcontent-dyj-c186] {
+    color: #2a76e8;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #2a76e8;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle,
+.mat-radio-button.mat-accent
+  .mat-radio-ripple
+  .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+  background-color: #2a76e8;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #2a76e8;
+}
+
+.LoginAccount .mat-button-wrapper,
+.LoginAccount .mat-button-wrapper:focus {
+  outline: none;
+}
+
+.LoginAccount
+  .mat-progress-spinner.mat-progress-spinner-indeterminate-animation {
+  width: 30px !important;
+  height: 30px !important;
+  outline: none;
+}
+
+.LoginAccount
+  .mat-progress-spinner.mat-progress-spinner-indeterminate-animation
+  svg {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.LoginAccount .mat-progress-spinner circle,
+.LoginAccount .mat-spinner circle {
+  stroke: #fff;
+}
+
+@media (min-width: 1370px) {
+  .container[_ngcontent-dyj-c186] {
+    max-width: 1366px;
+  }
+} */
+
+.CreateAccount {
+  margin-top: 50px;
+}
+
+.CreateAccount .MainHeading {
+  margin-bottom: 40px;
+}
+
+.CreateAccount .MainHeading h1 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.26px;
+}
+
+.CreateAccount .MainHeading p {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14.4px;
+}
+
+.CreateAccount form .form-group {
+  max-width: 400px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.CreateAccount form .form-group label {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.CreateAccount form .form-group .form-control {
+  height: 43px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.CreateAccount form .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: unset;
+  border: 1px solid #ced4da;
+}
+
+.CreateAccount form .form-group .Red {
+  color: red;
+}
+
+.CreateAccount form .form-group .Eye {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+
+.CreateAccount form .form-group .Eye i {
+  cursor: pointer;
+}
+
+.CreateAccount form button {
+  width: 161px;
+  height: 49px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #2a76e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CreateAccount form button:focus {
+  box-shadow: none;
+  border-color: unset;
+}
+
+.CreateAccount .ResetPassword {
+  margin-top: 15px;
+}
+
+.CreateAccount .ResetPassword p {
+  color: #2a76e8;
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: "Raleway";
+  cursor: pointer;
+}
+
+.CreateAccount .DontAccount {
+  margin-top: 62px;
+}
+
+.CreateAccount .DontAccount p {
+  color: #2a76e8;
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: "Raleway";
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .TeacherAccount {
+    margin-top: 50px;
+  }
+
+  .TeacherAccount .MainHeading {
+    margin-bottom: 40px;
+  }
+
+  .TeacherAccount form .form-group {
+    width: 300px;
+    margin: 30px 0;
+  }
+
+  .TeacherAccount form .form-group .Red {
+    color: red;
+  }
+
+  .TeacherAccount .AlreadyAccount {
+    margin-top: 50px;
+  }
+
+  .TeacherAccount .AlreadyAccount p {
+    color: #2a76e8;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #2a76e8;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle,
+.mat-radio-button.mat-accent
+  .mat-radio-ripple
+  .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+  background-color: #2a76e8;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #2a76e8;
+}
+
+.CreateAccount .mat-button-wrapper,
+.CreateAccount .mat-button-wrapper:focus {
+  outline: none;
+}
+
+.CreateAccount
+  .mat-progress-spinner.mat-progress-spinner-indeterminate-animation {
+  width: 30px !important;
+  height: 30px !important;
+  outline: none;
+}
+
+.CreateAccount
+  .mat-progress-spinner.mat-progress-spinner-indeterminate-animation
+  svg {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.CreateAccount .mat-progress-spinner circle,
+.CreateAccount .mat-spinner circle {
+  stroke: #fff;
+}
+
+@media (min-width: 1370px) {
+  .container {
+    max-width: 1366px;
+  }
+}

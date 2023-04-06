@@ -1,0 +1,723 @@
+
+.Home {
+    margin-top: 50px
+}
+
+.Home .container .row {
+    padding: 0
+}
+
+.Home .container .row .Details {
+    padding: 0 15px
+}
+
+.Home .container .row .Details h1 {
+    width: 546px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
+    color: #000
+}
+
+.Home .container .row .Details p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px
+}
+
+.Home .container .row .Details .SearchBar {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 47px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #e5e9eb;
+    box-shadow: 0 13px 35px #9aafba40;
+    border-radius: 7px
+}
+
+.Home .container .row .Details .SearchBar .Search input {
+    width: 450px;
+    height: 46px;
+    border: none;
+    outline: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8b8b8b
+}
+
+.Home .container .row .Details .SearchBar .Filter {
+    width: 100px;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.Home .container .row .Details .SearchBar .Filter img {
+    width: 12px;
+    height: 14px
+}
+
+.Home .container .row .ImgDetails {
+    padding: 0 15px;
+    filter: drop-shadow(0px 13px 35px rgba(154, 175, 186, .25));
+    border-radius: 20px
+}
+
+.Home .container .row .ImgDetails img {
+    width: 100%;
+    border-radius: 20px
+}
+
+.Home .container .whatWeDo {
+    margin-top: 150px
+}
+
+.Home .container .whatWeDo .MainHeadingDo h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
+    color: #000;
+    text-align: center
+}
+
+.Home .container .whatWeDo .MainHeadingDo p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #000;
+    text-align: center
+}
+
+.Home .container .whatWeDo .Cards {
+    display: flex;
+    justify-content: center
+}
+
+.Home .container .whatWeDo .Cards .cardOne {
+    padding: 0 10px
+}
+
+.Home .container .whatWeDo .Cards .cardOne .CardDetails {
+    margin: 10px 0;
+    position: relative
+}
+
+.Home .container .whatWeDo .Cards .cardOne .CardDetails .Image {
+    cursor: pointer
+}
+
+.Home .container .whatWeDo .Cards .cardOne .CardDetails .Image img {
+    width: 300px;
+    height: 320px;
+    background: #aeaeae;
+    mix-blend-mode: multiply;
+    border-radius: 10px
+}
+
+.Home .container .whatWeDo .Cards .cardOne .CardDetails .Discription {
+    position: absolute;
+    top: 60%;
+    left: 5%
+}
+
+.Home .container .whatWeDo .Cards .cardOne .CardDetails .Discription h2 {
+    width: 250px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+    cursor: pointer
+}
+
+.Home .container .whatWeDo .Cards .cardOne .CardDetails .Discription p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    width: 270px
+}
+
+.Home .container .whatWeOffer {
+    margin: 150px 0
+}
+
+.Home .container .whatWeOffer h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
+    color: #000;
+    text-align: center
+}
+
+.Home .container .whatWeOffer p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #000;
+    text-align: center
+}
+
+.Home .container .whatWeOffer .row {
+    padding: 0
+}
+
+.Home .container .whatWeOffer .row .offerCards {
+    display: flex;
+    justify-content: center
+}
+
+.Home .container .whatWeOffer .row .offerCards .Card {
+    width: 255px;
+    height: 220px;
+    text-align: center;
+    display: flex;
+    align-items: center
+}
+
+.Home .container .whatWeOffer .row .offerCards .Card .offerCardDetails .Image img {
+    padding-bottom: 14px
+}
+
+.Home .container .whatWeOffer .row .offerCards .Card .offerCardDetails .Discription {
+    width: 255px
+}
+
+.Home .container .whatWeOffer .row .offerCards .Card .offerCardDetails .Discription h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px
+}
+
+.Home .container .whatWeOffer .row .offerCards .Card .offerCardDetails .Discription p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000
+}
+
+.Home .container .teacherCardHeading {
+    display: flex;
+    justify-content: space-between
+}
+
+.Home .container .teacherCardHeading h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px
+}
+
+.Home .container .teacherCardHeading .seeAllTeacherBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    grid-gap: 10px;
+    gap: 10px;
+    width: 165px;
+    height: 49px;
+    background: #f6f9fe;
+    border: 1px solid #bdd4f7;
+    border-radius: 6px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer
+}
+
+.Home .container .teachersCard .TeacherJobCards {
+    padding: 40px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails {
+    background-color: #f8f8f8;
+    border: solid #e5e9eb 1px;
+    width: 250px;
+    min-height: 315px;
+    padding: 30px 0 10px;
+    text-align: center;
+    margin: 10px 40px 20px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .Menu {
+    position: absolute;
+    right: 13px;
+    top: 10px
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .TeacherImg {
+    padding-bottom: 20px
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .TeacherImg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+    border-radius: 100%
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .TeacherDescription {
+    text-align: center
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .TeacherDescription h2 {
+    font-size: 22px;
+    font-family: "Raleway";
+    font-weight: 600;
+    line-height: 25.83px
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .TeacherDescription p {
+    font-size: 12px;
+    font-family: "Raleway";
+    font-weight: 400;
+    line-height: 1.2;
+    width: 150px;
+    margin: 0 auto 5px;
+    height: 30px
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .RatingAndPrice {
+    border-bottom: solid #e5e9eb 1px;
+    border-top: solid #e5e9eb 1px;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway";
+    justify-content: center;
+    margin: 0 15px
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .RatingAndPrice .Rating {
+    display: flex;
+    align-items: center
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .RatingAndPrice .Rating p {
+    padding: 15px 0 0 4px;
+    font-size: 12px;
+    font-family: "Raleway";
+    font-weight: 400
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .RatingAndPrice img {
+    opacity: .4
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .RatingAndPrice .Price {
+    display: flex;
+    align-items: center
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .RatingAndPrice .Price p {
+    padding: 15px 0 0 4px;
+    font-size: 12px;
+    font-family: "Raleway";
+    font-weight: 400
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .HireTeacher {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: relative
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .HireTeacher .HireBtn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .HireTeacher .HireBtn button {
+    width: 57px;
+    height: 29px;
+    color: #fff;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #2a76e8;
+    padding: 0
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .HireTeacher .HireBtn button:focus {
+    box-shadow: none;
+    border-color: unset
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .HireTeacher .HeartImg {
+    position: absolute;
+    right: 16px
+}
+
+.Home .container .teachersCard .TeacherJobCards .JobCardsDetails .HireTeacher .HeartImg img {
+    cursor: pointer
+}
+
+.Home .container .separator {
+    border: 1px solid #E5E9EB;
+    margin: 100px 5px 0
+}
+
+.Home .container .applyForQari {
+    margin: 120px 0
+}
+
+.Home .container .applyForQari .Details {
+    padding-top: 30px
+}
+
+.Home .container .applyForQari .Details h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px
+}
+
+.Home .container .applyForQari .Details p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    max-width: 664px;
+    height: 76px
+}
+
+.Home .container .applyForQari .Details .seeDetailsBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    grid-gap: 10px;
+    gap: 10px;
+    width: 160px;
+    height: 49px;
+    background: #2A76E8;
+    border-radius: 6px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 23px
+}
+
+.Home .container .applyForQari .ImgDetails {
+    filter: drop-shadow(0px 13px 35px rgba(154, 175, 186, .25));
+    border-radius: 20px
+}
+
+.Home .container .applyForQari .ImgDetails img {
+    width: 100%
+}
+
+.Home .Footer {
+    padding: 50px 0;
+    background: #f8f8f8
+}
+
+.Home .Footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.Home .Footer .container .Logo img {
+    width: 90px;
+    height: 42px;
+    object-fit: contain
+}
+
+.Home .Footer .container .Reserved {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px
+}
+
+.Home .Footer .container .socialIcons img {
+    margin: 0 10px
+}
+
+@media (max-width: 970px) {
+    .Home {
+        margin-top: 50px
+    }
+
+    .Home .container {
+        padding: 0
+    }
+
+    .Home .container .row {
+        padding: 0
+    }
+
+    .Home .container .row .Details .SearchBar {
+        width: 90vw
+    }
+
+    .Home .container .row .Details .SearchBar .Search input {
+        width: 70vw
+    }
+
+    .Home .container .row .Details .SearchBar .Filter {
+        width: 10vw
+    }
+
+    .Home .container .row .ImgDetails {
+        margin-top: 30px
+    }
+
+    .Home .container .whatWeDo {
+        margin-top: 70px
+    }
+
+    .Home .container .whatWeDo .Cards .cardOne {
+        display: flex;
+        justify-content: center
+    }
+
+    .Home .container .whatWeOffer {
+        margin-top: 70px
+    }
+
+    .Home .container .teacherCardHeading {
+        display: block;
+        text-align: center
+    }
+
+    .Home .container .teacherCardHeading .seeAllTeacherBtn {
+        margin: auto;
+        width: 50%
+    }
+}
+
+@media (max-width: 780px) {
+    .Home {
+        margin-top: 50px
+    }
+
+    .Home .container {
+        padding: 0
+    }
+
+    .Home .container .row {
+        padding: 0
+    }
+
+    .Home .container .row .Details h1 {
+        width: 65vw;
+        font-size: 5.5vw;
+        line-height: 6.1vw
+    }
+
+    .Home .container .row .Details p {
+        width: 79vw;
+        font-size: 3.3vw;
+        line-height: 4.8vw
+    }
+
+    .Home .container .row .Details .SearchBar {
+        width: 90vw;
+        padding: 0 15px
+    }
+
+    .Home .container .row .Details .SearchBar .Search input {
+        width: 70vw
+    }
+
+    .Home .container .row .Details .SearchBar .Filter {
+        width: 10vw
+    }
+
+    .Home .container .whatWeDo {
+        margin-top: 150px
+    }
+
+    .Home .container .whatWeDo .Cards {
+        justify-content: center;
+        flex-direction: column
+    }
+
+    .Home .container .whatWeOffer {
+        margin-top: 50px
+    }
+
+    .Home .container .whatWeOffer .row .offerCards {
+        display: flex;
+        justify-content: center
+    }
+
+    .Home .container .teachersCard .TeacherJobCards {
+        padding: 0 50px;
+        display: flex;
+        flex-wrap: wrap
+    }
+}
+
+@media (max-width: 560px) {
+    .Home {
+        margin-top: 50px
+    }
+
+    .Home .container {
+        padding: 0
+    }
+
+    .Home .container .row {
+        width: 100%;
+        padding: unset;
+        margin: 0
+    }
+
+    .Home .container .row .Details {
+        text-align: center
+    }
+
+    .Home .container .row .Details .SearchBar {
+        width: 90vw
+    }
+
+    .Home .container .row .Details .SearchBar .Search input {
+        width: 70vw
+    }
+
+    .Home .container .row .Details .SearchBar .Filter {
+        width: 10vw
+    }
+
+    .Home .container .row .Details h1 {
+        width: 100%
+    }
+
+    .Home .container .row .Details .seeDetailsBtn {
+        margin: 0 auto
+    }
+
+    .Home .container .row .ImgDetails {
+        margin-top: 30px
+    }
+
+    .Home .container .whatWeDo {
+        margin-top: 40px
+    }
+
+    .Home .container .whatWeDo .MainHeadingDo h1 {
+        font-size: 6.4vw;
+        line-height: 6.1vw
+    }
+
+    .Home .container .whatWeDo .MainHeadingDo p {
+        font-size: 3.5vw;
+        line-height: 5.8vw;
+        padding: 0 15px
+    }
+
+    .Home .container .whatWeOffer {
+        margin: 60px 0
+    }
+
+    .Home .container .whatWeOffer h1 {
+        font-size: 6.4vw;
+        line-height: 6.1vw
+    }
+
+    .Home .container .whatWeOffer p {
+        font-size: 3.5vw;
+        line-height: 5.8vw;
+        padding: 0 15px
+    }
+
+    .Home .container .teacherCardHeading h1 {
+        font-size: 30px;
+        padding: 0 15px;
+        line-height: 36px
+    }
+
+    .Home .container .teachersCard {
+        margin: 20px 0
+    }
+
+    .Home .container .teachersCard .TeacherJobCards {
+        margin: 20px 0
+    }
+
+    .Home .container .teachersCard .TeacherJobCards .JobCardsDetails {
+        margin: auto
+    }
+
+    .Home .container .applyForQari {
+        margin: 50px 0
+    }
+
+    .Home .container .separator {
+        margin: 30px 5px 0
+    }
+
+    .Home .Footer {
+        background: #f8f8f8
+    }
+
+    .Home .Footer .container {
+        justify-content: center;
+        flex-direction: column
+    }
+
+    .Home .Footer .container .Reserved {
+        padding: 19px 0
+    }
+}
+
+@media (min-width: 1370px) {
+    .Home .container {
+        max-width: 1366px
+    }
+}

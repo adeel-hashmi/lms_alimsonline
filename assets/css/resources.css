@@ -1,0 +1,55 @@
+.Resources .container .MainHeading {
+  margin-top: 50px;
+}
+
+.Resources .container .MainHeading h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.Resources .container .ResourcesList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Resources .container .ResourcesList .ResourcesCard {
+  margin: 15px 20px 10px 0;
+}
+
+.Resources .container .ResourcesList .ResourcesCard .Thumnail {
+  width: 300px;
+  height: 100px;
+  background: #c4c4c4;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.Resources .container .ResourcesList .ResourcesCard .Thumnail img {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  opacity: 0.75;
+}
+
+.Resources .container .ResourcesList .ResourcesCard .Name {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.Resources .container .ResourcesList .ResourcesCard .Name p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  left: 5%;
+  margin-top: -60px;
+}

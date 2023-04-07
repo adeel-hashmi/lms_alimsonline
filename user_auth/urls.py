@@ -6,8 +6,8 @@ from . import views
 app_name = 'user_auth'
 
 urlpatterns = [
-    path('', views.home, name="home"),
-    # path('reg/', views.reg, name="register"),
-    path('studentSignup/', views.student_signup, name="studentSignup"),
+    path('', views.home, name='home'),
+    path('user_auth/register/', views.register, name="register"),
+    # path('studentSignup/', views.student_signup, name="studentSignup"),
     path('teacherSignup/', views.teacher_signup, name="teacherSignup"),
 ]

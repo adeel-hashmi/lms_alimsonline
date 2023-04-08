@@ -8,7 +8,6 @@ from django.contrib.auth.models import User, auth
 
 from django.contrib import messages
 
-
 # Create your views here.
 from django.contrib.auth.forms import UserCreationForm
 
@@ -49,11 +48,30 @@ def register(request):
         user = User.objects.create_user(username=username, first_name=first_name, email=email, password=password)
         # user.save()
         messages.success(request, 'Your account has been created! You can now log in.')
-        return redirect('login')
+        return render(request, 'user_auth/login.html')
         # print("user created")
         # return redirect('/')
     else:
         return render(request, 'user_auth/register.html')
+
+
+def signin(request):
+    if request.method == 'POST':
+        email = request.POST['email']
+        username = email
+        password = request.POST['password']
+
+        user = auth.authenticate(username=username, password=password)
+
+        if user is not None:
+            auth.login(request, user)
+            return HttpResponse("<h1>Login Successful</h1>")
+        else:
+            messages.info(request, 'invalid credentials')
+            return render(request, 'user_auth/login.html')
+    else:
+        return render(request, 'user_auth/login.html')
+
 
 # def student_signup(request):
 #     if request.method == 'POST':
@@ -73,8 +91,7 @@ def teacher_signup(request):
     return render(request, 'user_auth/teacher-signup.html')
 
 
-def signin(request):
-    return render(request, 'user_auth/signin.html')
+
 
 
 def signout(request):

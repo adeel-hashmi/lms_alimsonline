@@ -12,22 +12,6 @@ from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
 
 
-# def register(request):
-#     if request.method == 'POST':
-#         form = UserCreationForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             return redirect('login')
-#     else:
-#         form = UserCreationForm()
-#
-#     return render(request, 'registration/register.html', {'form': form})
-
-
-# def home(request):
-#     return HttpResponse("Home page ")
-
-
 def home(request):
     return render(request, 'user_auth/index.html')
 
@@ -53,6 +37,30 @@ def register(request):
         # return redirect('/')
     else:
         return render(request, 'user_auth/register.html')
+
+def teacher_reg(request):
+    if request.method == 'POST':
+        first_name = request.POST['first_name']
+        email = request.POST['email']
+        username = email  # set username as email
+        password = request.POST['password']
+        is_staff = True
+
+        # Check if username or email already exists
+        if User.objects.filter(username=email).exists() or User.objects.filter(email=email).exists():
+            messages.error(request, 'A user with this email already exists.', extra_tags='danger')
+            return render(request, 'user_auth/teacher-reg.html')
+
+        # Create the new user
+        user = User.objects.create_user(username=username, first_name=first_name, email=email, password=password, is_staff=is_staff)
+        # user.save()
+        messages.success(request, 'Your account has been created! You can now log in.')
+        return render(request, 'user_auth/login.html')
+        # print("user created")
+        # return redirect('/')
+    else:
+        return render(request, 'user_auth/teacher-reg.html')
+
 
 
 def signin(request):
@@ -87,8 +95,7 @@ def signin(request):
 #         return render(request, 'user_auth/student-signup.html')
 
 
-def teacher_signup(request):
-    return render(request, 'user_auth/teacher-signup.html')
+
 
 
 

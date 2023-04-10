@@ -1,141 +1,145 @@
 .CreateAccount {
-    margin-top: 100px
+  margin-top: 100px;
 }
 
 .CreateAccount .container .MainHeading {
-    margin-bottom: 60px;
-    text-align: center
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .CreateAccount .container .MainHeading h1 {
-    font-family: "Raleway";
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 42.2px
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42.2px;
 }
 
 .CreateAccount .container .MainHeading p {
-    font-family: "Raleway";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.4px
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.4px;
 }
 
 .CreateAccount .container .AccountBox {
-    display: flex;
-    justify-content: center
+  display: flex;
+  justify-content: center;
+}
+
+.RoleReg{
+  text-decoration: none;
 }
 
 .CreateAccount .container .AccountBox .Account {
-    width: 200px;
-    height: 250px;
-    border-radius: 12px;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 0 20px
+  width: 200px;
+  height: 250px;
+  border-radius: 12px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 20px;
 }
 
 .CreateAccount .container .AccountBox .Account .CardDeatils {
-    text-align: center;
-    align-items: center
+  text-align: center;
+  align-items: center;
 }
 
-.CardDeatils .RoleReg {
-    text-decoration: none;
+.CardDeatils .RoleReg h3 {
+  text-decoration: none;
 }
 
 .CreateAccount .container .AccountBox .Account .CardDeatils img {
-    width: 65px;
-    height: 100px;
-    object-fit: contain
+  width: 65px;
+  height: 100px;
+  object-fit: contain;
 }
 
 .CreateAccount .container .AccountBox .Account .CardDeatils i {
-    font-size: 30px;
-    margin-bottom: 30px
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .CreateAccount .container .AccountBox .Account .CardDeatils h3 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 26px;
-    padding-top: 20px
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 20px;
 }
 
 .CreateAccount .container .AccountBox .Account .CardDeatils p {
-    font-family: "Raleway";
-    font-size: 12px;
-    line-height: 0px
+  font-family: "Raleway";
+  font-size: 12px;
+  line-height: 0px;
 }
 
 .CreateAccount .container .AccountBox .Student {
-    border: 1px solid #bdd4f7;
-    background-color: #f6f9fe;
-    cursor: pointer
+  border: 1px solid #bdd4f7;
+  background-color: #f6f9fe;
+  cursor: pointer;
 }
 
 .CreateAccount .container .AccountBox .Disable {
-    cursor: unset;
-    opacity: .6
+  cursor: unset;
+  opacity: 0.6;
 }
 
 .CreateAccount .container .AccountBox .Teacher {
-    border: 1px solid #e47f7f;
-    cursor: pointer;
-    background-color: #fcf1f1
+  border: 1px solid #e47f7f;
+  cursor: pointer;
+  background-color: #fcf1f1;
 }
 
 .CreateAccount .container .ChangeOption p {
-    padding-top: 70px;
-    text-align: center;
-    line-height: 17.4px;
-    font-family: "Raleway";
-    font-weight: 400;
-    font-size: 14px
+  padding-top: 70px;
+  text-align: center;
+  line-height: 17.4px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .CreateAccount .container .AlreadyAccount P {
+  padding-top: 150px;
+  color: #2a76e8;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 785px) {
+  .CreateAccount {
+    margin-top: 100px;
+  }
+
+  .CreateAccount .container .AccountBox .Account .CardDeatils p {
+    line-height: unset;
+  }
+
+  .CreateAccount .container .ChangeOption p {
+    padding-top: 70px;
+    line-height: 17.4px;
+    font-size: 14px;
+  }
+
+  .CreateAccount .container .AlreadyAccount P {
     padding-top: 150px;
     color: #2a76e8;
     text-decoration: underline;
     text-align: center;
     cursor: pointer;
     font-size: 14px;
-    font-weight: 400
-}
-
-@media (max-width: 785px) {
-    .CreateAccount {
-        margin-top: 100px
-    }
-
-    .CreateAccount .container .AccountBox .Account .CardDeatils p {
-        line-height: unset
-    }
-
-    .CreateAccount .container .ChangeOption p {
-        padding-top: 70px;
-        line-height: 17.4px;
-        font-size: 14px
-    }
-
-    .CreateAccount .container .AlreadyAccount P {
-        padding-top: 150px;
-        color: #2a76e8;
-        text-decoration: underline;
-        text-align: center;
-        cursor: pointer;
-        font-size: 14px;
-        font-weight: 400
-    }
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 1370px) {
-    .container {
-        max-width: 1366px
-    }
+  .container {
+    max-width: 1366px;
+  }
 }

@@ -75,10 +75,10 @@
                     </div>
 
                     <div class="Item">
-                        <a class="nav-element" href="login.html"> Login </a>
+                        <a class="nav-element" href="{% url 'user_auth:signin' %}"> Login </a>
                     </div>
                     <div class="Item">
-                        <a class="nav-element" href="signup.html"> Signup</a>
+                        <a class="nav-element" href="{% url 'user_auth:home' %}"> Signup</a>
                     </div>
                 </div>
                 <div data-toggle="collapse" data-target="#collaspeNavigation" aria-expanded="false"
